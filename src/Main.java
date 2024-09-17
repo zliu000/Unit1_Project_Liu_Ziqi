@@ -19,7 +19,7 @@ public class Main {
                 "    /\\                                                      \\\n" +
                 "(O)===)><><><><><><><><><><><><><><><><><><><><><><><><><><><)==(O)\n" +
                 "    \\/''''''''''''''''''''''''''''''''''''''''''''''''''''''/");
-        System.out.println("        !! Please enter all numbers, without any symbols. !! \n");
+        System.out.println("\n        !! Please enter all numbers, without any symbols. !! \n");
         System.out.print("      | Enter your bill: ");
         bill = Double.parseDouble(s.nextLine());
 
