@@ -15,11 +15,14 @@ public class Main {
         Scanner s = new Scanner(System.in);
 
 
+        // printing initial welcome statements
         System.out.println("     _______________________________________________________\n" +
                 "    /\\                                                      \\\n" +
                 "(O)===)><><><><><><><><><><><><><><><><><><><><><><><><><><><)==(O)\n" +
                 "    \\/''''''''''''''''''''''''''''''''''''''''''''''''''''''/");
+
         System.out.println("\n        !! Please enter all numbers, without any symbols. !! \n");
+
         System.out.print("      | Enter your bill: ");
         bill = Double.parseDouble(s.nextLine());
 
@@ -40,10 +43,12 @@ public class Main {
 
         // Printing out final statements
         System.out.println("\n              ------------------------------------\n");
+
         System.out.println("      | Total Tip Amount: $" + df.format(tip));
         System.out.println("      | Total bill: $" + df.format(total));
         System.out.println("      | Tip per person: $" + df.format(averageTip));
         System.out.println("      | Total bill per person: $" + df.format(averageTotal) +"\n");
+
         System.out.println("    /\\''''''''''''''''''''''''''''''''''''''''''''''''''''''\\    \n" +
                 "(O)===)><><><><><><><><><><><><><><><><><><><><><><><><><><><)==(O)\n" +
                 "    \\/______________________________________________________/");
